@@ -15,6 +15,7 @@
         {
 
             if (name.Substring(i , 5) == "hello") str = true;
+            if (name.Substring(i , 5) == "hello") str = true;
            
 
 
