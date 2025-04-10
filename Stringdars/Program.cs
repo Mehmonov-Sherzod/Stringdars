@@ -7,15 +7,20 @@
         Console.Write("matn krit:");
         string name = Console.ReadLine();
 
+        bool str = false;
 
-        string[] str = name.Split(new char[] { ' '});
+       
 
-     int summa = str.Length ;
+        for (int i = 0; i <= name.Length -5; i++)
+        {
+
+            if (name.Substring(i , 5) == "hello") str = true;
+           
 
 
-        Console.Write(summa);
+        }
 
-
+        Console .WriteLine(str);
 
 
     }
