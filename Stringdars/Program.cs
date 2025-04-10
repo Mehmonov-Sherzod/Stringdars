@@ -6,23 +6,21 @@
     {
         Console.Write("matn krit:");
       string name = Console.ReadLine();
-        char C = Convert.ToChar(Console.ReadLine());
 
-        int summa = 0;
 
-        for (int i = 0; i < name.Length; i++) {
+        string[] str = name.Split();
 
-            if (name[i] == C)
-            {
-                summa++;
+        
 
-            }
+        for (int i = 0; i < str.Length; i++) {
 
-           
+
+            Console.WriteLine(str[i]);
+
+
 
         }
 
-        Console.WriteLine(summa);
 
 
 
