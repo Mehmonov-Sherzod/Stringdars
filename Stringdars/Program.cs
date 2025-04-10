@@ -4,29 +4,25 @@
 
     public static void Main(string[] args)
     {
-
+        Console.Write("matn krit:");
       string name = Console.ReadLine();
+        char C = Convert.ToChar(Console.ReadLine());
 
-        string str = " ";
+        int summa = 0;
 
         for (int i = 0; i < name.Length; i++) {
 
-            if (name[i] == ' ')
+            if (name[i] == C)
             {
-
+                summa++;
 
             }
 
-            else
-            {
-
-                str += name[i];
-            }
-
+           
 
         }
 
-        Console.WriteLine(str);
+        Console.WriteLine(summa);
 
 
 
