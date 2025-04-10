@@ -8,30 +8,13 @@
         string name = Console.ReadLine();
 
 
-        string[] str = name.Split(" ");
+        string[] str = name.Split(new char[] { ' '});
 
-        string strt = " ";
-
-
-        Console.Write(" ");
-        foreach (string st in str)
-        {
-
-            Console.WriteLine(st);
-
-            if (st.Length > strt.Length)
-            {
-
-                strt = st;
-            }
+     int summa = str.Length ;
 
 
+        Console.Write(summa);
 
-        }
-
-
-        Console.WriteLine(" eng kattasi:");
-        Console.Write(strt);
 
 
 
